@@ -87,9 +87,44 @@ ul {
 }
 }
 
+.come-funziona {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.come-funziona h2 {
+  margin-bottom: 20px;
+  color: #ff6b6b;
+  font-size: 2em;
+}
+
+.come-funziona ul {
+  list-style: disc;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
 footer {
   background-color: #111;
   color: white;
   text-align: center;
   padding: 20px 0;
 }
+
+.btn-whatsapp {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebc5c;
+}
+
